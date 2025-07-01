@@ -1,0 +1,21 @@
+.bg-moded {
+  background-color: var(--todolist-header-bg);
+}
+
+.text-mod {
+  color: var(--todolist-txt-color);
+}
+
+.p-moded {
+  padding: 20px 40px;
+}
+
+.hover-a-git,
+.hover-a-repo {
+  transition: opacity 0.3s;
+}
+
+.hover-a-git:hover,
+.hover-a-repo:hover {
+  opacity: 0.5;
+}

@@ -1,0 +1,17 @@
+.bton-bg-moded {
+  background-color: var(--bton);
+  transition: 0.3s;
+}
+
+.bton-bg-moded:hover {
+  background-color: var(--bton-hover);
+  transform: scale(1.10);
+}
+
+.bton-bg-moded:active {
+  transform: scale(0.95);
+}
+
+.p-md{
+  padding: 12px 24px;
+}

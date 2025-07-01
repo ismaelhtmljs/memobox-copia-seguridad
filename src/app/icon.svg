@@ -1,0 +1,36 @@
+<svg
+  width="180"
+  height="180"
+  viewBox="0 0 180 180"
+  fill="none"
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <!-- Caja base -->
+  <rect x="30" y="50" width="120" height="90" rx="12" fill="#4F46E5" />
+  
+  <!-- Tapa -->
+  <path
+    d="M30 50 L90 90 L150 50"
+    fill="#6366F1"
+    stroke="#A5B4FC"
+    stroke-width="4"
+  />
+  
+  <!-- Hoja saliendo de la caja -->
+  <rect x="60" y="25" width="60" height="40" rx="6" fill="#FDE68A" stroke="#F59E0B" stroke-width="2"/>
+  <line x1="65" y1="40" x2="115" y2="40" stroke="#D97706" stroke-width="2"/>
+  <line x1="65" y1="48" x2="110" y2="48" stroke="#D97706" stroke-width="2"/>
+
+  <!-- Texto -->
+  <text
+    x="90"
+    y="170"
+    text-anchor="middle"
+    font-size="22"
+    font-family="Verdana, sans-serif"
+    fill="#ffffff"
+    font-weight="bold"
+  >
+    MemoBox
+  </text>
+</svg>
