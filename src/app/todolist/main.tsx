@@ -13,6 +13,7 @@ export default function TodolistHome() {
             <TodolistAside />
             <TodolistContent />
           </div>
+          {/*  */}
         </main>
       </div>
     </>
