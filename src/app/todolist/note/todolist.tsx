@@ -6,6 +6,7 @@ import MiniTodoList from "../components/minitodolist";
 export default function TodolistContent() {
   const [isModalOpen, SetisModalOpen] = useState(false);
 
+  // 
   const [Note_pad, SetNotePad] = useState<
     { titulo: string; contenido: string }[]
   >(() => {
