@@ -1,0 +1,21 @@
+.bg-moded {
+  background-color: var(--footer-header-bg);
+}
+
+.text-mod {
+  color: var(--footer-header-txt);
+}
+
+.p-moded {
+  padding: 20px 40px;
+}
+
+.hover-a-git,
+.hover-a-repo {
+  transition: opacity 0.3s;
+}
+
+.hover-a-git:hover,
+.hover-a-repo:hover {
+  opacity: 0.5;
+}

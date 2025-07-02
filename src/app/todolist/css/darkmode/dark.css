@@ -1,0 +1,55 @@
+body.dark {
+  --todolist-body-bg: #0f172a;
+  --todolist-header-bg: #1e293b;
+  --todolist-txt-color: #f8fafc;
+  --todolist-body-txt-color: #e2e8f0;
+}
+
+body.dark {
+  .aside-dark {
+    background-color: #1e293b;
+  }
+
+  .modal-dark {
+    background-color: #1e293b;
+    color: var(--todolist-txt-color);
+  }
+
+  .note-bg-dark {
+    background-color: #1e293b;
+    border: 1px solid #334155;
+  }
+
+  .todolist-bg-dark {
+    background-color: #1e293b;
+  }
+
+  .minitodolist-dark {
+    background-color: #0f172a;
+  }
+
+  button {
+    transition: background-color 0.3s;
+  }
+
+  button:hover {
+    background-color: #3b82f6;
+    color: white;
+  }
+
+  input,
+  textarea {
+    background-color: #1e293b;
+    color: #f8fafc;
+    border: 1px solid #334155;
+  }
+
+  input::placeholder,
+  textarea::placeholder {
+    color: #94a3b8;
+  }
+
+  a {
+    color: #60a5fa;
+  }
+}

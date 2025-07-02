@@ -1,0 +1,37 @@
+@media only screen and (min-width: 238px) and (max-width: 280px){
+  .h-res{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .txt-t-res{
+    font-size: 2.2rem;
+  }
+
+  .txt-t-res-des-1{
+    font-size: 1.3rem;
+  }
+
+  .p-m-moded-res-1{
+    padding: 0px;
+  }
+
+  .p-m-moded-res-2{
+    padding: 10px;
+  }
+}
+
+@media only screen and (min-width: 281px) and (max-width: 400px){
+  .h-res{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .p-m-moded-res-1{
+    padding: 50px 10px;
+  }
+}

@@ -1,0 +1,4 @@
+.footer-bg {
+  background-color: var(--footer-header-bg);
+  color: var(--footer-header-txt);
+}

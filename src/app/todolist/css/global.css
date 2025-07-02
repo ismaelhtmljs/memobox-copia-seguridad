@@ -1,0 +1,16 @@
+:root {
+  --todolist-header-bg: #4f46e5;
+  --todolist-txt-color: #fff;
+  --todolist-body-bg: #f3f4f6;
+  --todolist-body-txt-color: #000;
+}
+
+body {
+  background-color: var(--todolist-body-bg);
+  color: var(--todolist-body-txt-color);
+}
+
+.p-none-mt-mb {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}

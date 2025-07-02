@@ -1,0 +1,8 @@
+.p-m-moded {
+    margin: 0 auto;
+    padding: 50px 20px;
+}
+
+.text-color-h {
+    color: var(--header-footer-text-titulo);
+}
