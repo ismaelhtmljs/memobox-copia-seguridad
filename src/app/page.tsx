@@ -13,6 +13,7 @@ export default function Home() {
         <Main/>
         {/*  */}
         <Footer/>
+        {/*  */}
       </div>
     </div>
   );
